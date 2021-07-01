@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9f79e63-9061-4c5f-86ff-66dda087e312" name="Default Changelist" comment="" />
+    <list default="true" id="a9f79e63-9061-4c5f-86ff-66dda087e312" name="Default Changelist" comment="gitinore">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApi/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApi/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0002_text_owner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,17 +28,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="8b669d3b-09fe-4d6a-8ed5-bb019241092d" />
   </component>
   <component name="JupyterTrust" id="16390ec8-bee7-44a6-8122-cd668df2dfac" />
   <component name="ProjectId" id="1uZ29Zup9nBdHActUmZfDwETNuq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/api" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -36,10 +52,11 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/api" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api" />
     </key>
   </component>
@@ -77,21 +94,50 @@
       <option name="presentableId" value="Default" />
       <updated>1624858642789</updated>
       <workItem from="1624858702240" duration="2111000" />
-      <workItem from="1624864119651" duration="1159000" />
+      <workItem from="1624864119651" duration="3048000" />
+      <workItem from="1625120861160" duration="75000" />
     </task>
+    <task id="LOCAL-00001" summary="gitinore">
+      <created>1624865954623</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624865954624</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gitinore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitinore" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624866439132">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1624866439132" />
+    <state x="327" y="44" key="CommitChangelistDialog2" timestamp="1625120925353">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="327" y="44" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1625120925353" />
+    <state x="481" y="336" key="Github.ShareDialog" timestamp="1624865862860">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="481" y="336" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1624865862860" />
+    <state x="541" y="162" key="Github.UntrackedFilesDialog" timestamp="1624865871071">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="541" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1624865871071" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1624861351718">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1624861351718" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1624864382301">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1624866670478">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1624864382301" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1624866670478" />
   </component>
 </project>

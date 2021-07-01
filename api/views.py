@@ -5,12 +5,13 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from .serializers import TextSerializer
 from .models import Text
-
+from rest_framework.permissions import IsAuthenticated
 
 # def home(request):
 #     return
 
 class TestView(APIView):
+    permission_classes = (IsAuthenticated,)
     def get(self,request,*args,**kwargs):
         data=Text.objects.all()
         serializers=TextSerializer(data,many=True)
