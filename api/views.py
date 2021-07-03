@@ -1,25 +1,32 @@
-from django.shortcuts import render
-from django.http import JsonResponse
-# Create your views here.
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from .serializers import TextSerializer
+from django.http import HttpResponse
+from django.shortcuts import render, redirect
 from .models import Text
-from rest_framework.permissions import IsAuthenticated
+from .forms import TextForm
+def list_view(request):
+    context={}
+    if request.method=="GET":
+        context['objects']=Text.objects.all()
 
-# def home(request):
-#     return
+    return render(request,'index.html',context)
+def textDetail(request,slug):
+    context={
+        'objects':None,
+        'object':Text.objects.get(slug=slug)
+    }
 
-class TestView(APIView):
-    permission_classes = (IsAuthenticated,)
-    def get(self,request,*args,**kwargs):
-        data=Text.objects.all()
-        serializers=TextSerializer(data,many=True)
-        return Response(serializers.data)
-    def post(self,request,*args,**kwargs):
-        serializer=TextSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data)
-        return Response(serializer.errors)
+    return render(request,'index.html',context)
+import random
+def createView(request):
+    context={}
+    forms=TextForm()
+    if request.method=="POST":
+        forms=TextForm(request.POST)
+        if forms.is_valid():
+            text=forms.save(commit=False)
+            # text.slug=str(text.name)+str(random.randint(99,999))
+            text.save()
+            # print(text.slug,"888887878888888888888888888")
+            return HttpResponse(text.slug)
+    context['forms']=forms
+    return render(request,'index.html',context)
 

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if objects %}
+    <h1>LIST View</h1>
+    {% for obj in objects %}
+        <h3>{{ obj.slug }} {{ obj.name }}</h3>
+    {% endfor %}
+{% elif object %}
+    <h1>Detail View</h1>
+    <h3>{{ object.name }}</h3>
+{% elif forms %}
+    <h1>Create View</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ forms }}
+        <button type="submit" class="button"></button>
+    </form>
+{% endif %}
+</body>
+</html>
